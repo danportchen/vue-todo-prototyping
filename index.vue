@@ -2,7 +2,7 @@
 <div class="container">
   <div class="input-group mb-3">
     <div class="input-group-prepend">
-      <span class="input-group-text" id="basic-addon1">待辦事項</span>
+      <span class="input-group-text" id="basic-addon1">待辦事項列表</span>
     </div>
     <input type="text" class="form-control" placeholder="準備要做的任務" v-model="newTodo" @keyup.enter ="addTodo">
     <div class="input-group-append">
